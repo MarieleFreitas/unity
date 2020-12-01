@@ -131,14 +131,31 @@ html {
   
   
   }
+
+  aside {
+    margin-top: 20px;
+    position: relative;
+    margin-right: 2px;
+    
+  }
+
+
+ 
   
   .aside-1{
      background:white;
+     height:100%;
+     border-radius: 40px 0 0 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+
   
   }
   
   .aside-1 img{
-      width:100px;
+      width:250px;
       
   }
   
@@ -161,17 +178,9 @@ html {
    
   }
   
-  .localizacao {
-  
-    background: #f3bb64;
-    border-radius: 4px;
-    height: 200px;
-    text-align: left;
-  
-    max-width: 200px;
-    
-    padding: 10px;
-  
+
+  .ident-user {
+    color: #503a98;
   }
   
   
