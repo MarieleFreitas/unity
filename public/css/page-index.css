@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(320deg, #69b7d6 50%, #503a98 100%) no-repeat;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  #container {
+    margin: auto;
+    padding: auto;
+    background: url("../images/Ilustra02.png") no-repeat 70% /
+    clamp(20rem, 54vw, 45rem);
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+  }
+  
+  header img {
+    width: 150px;
+    position: relative;
+    margin-bottom: 90px;
+  }
+  
+  .button {
+    width: 7.5rem;
+    height: 7.5rem;
+    background: #f3bb64;
+  
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin: initial;
+    animation-delay: 150ms;
+  }
+  
+  .button:hover {
+    background: #f083a9;
+  }
+  
+  #logo {
+    animation-delay: 50ms;
+  }
+
+  h1 {
+    font-size: clamp(6rem, 8vh, 8.4rem);
+    line-height: 0.88;
+    font-weight: bold;
+    width: min(300px, 80%);
+
+    margin: clamp(1%, 8vh, 12%) 0 2.8rem;
+
+    animation-delay: 100ms;
+}
+  
+  main h1 {
+    margin-bottom: 50px;
+    animation-delay: 100ms;
+  }
+
+  .visit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .visit p {
+    animation-delay: 200ms;
+
+    font-size: 1.8rem;
+    line-height: 3rem;
+    width: clamp(20rem, 20vw, 30rem);
+  }
+  
+ 
+  

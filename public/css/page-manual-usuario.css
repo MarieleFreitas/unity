@@ -1,0 +1,24 @@
+
+h1 , h3, h4 {
+    color: #503a98;
+    
+    
+  }
+ 
+  h1{
+     margin-bottom: 30px;
+  }
+ 
+  p {
+    color: grey;
+    max-width: 800px;
+    font-size:1.5rem;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+ 
+  hr{
+     size: 2px;
+     color:lightgrey;
+     margin-bottom: 30px;
+  }

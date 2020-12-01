@@ -1,0 +1,26 @@
+h1 , h4 {
+    color: #503a98;
+    margin-bottom: 2px;
+    
+  }
+  
+  .bold {
+    color: black;
+    font-weight: bold;
+  }
+  
+  p {
+    color: grey;
+    max-width: 500px;
+    font-size:1.5rem;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .inform {
+      background:rgb(248, 248, 248);
+      width: 100%;
+      padding: 5px;
+  }
+  
+ 
