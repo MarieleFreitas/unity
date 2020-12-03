@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  .container {
+    margin: auto;
+    padding: auto;
+    width: min(90%, 112rem);
+    align-items: center;
+  }
+
+  .main {
+    
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 1.6rem;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+
+  
+  .main li {
+    padding: 20px;
+    margin : 20px;
+    background:  #f3bb64;
+    border-radius: 6px;
+
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    background: #f083a9;
+  }

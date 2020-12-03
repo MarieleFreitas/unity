@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(320deg, #69b7d6 50%, #503a98 100%) no-repeat;
-    text-align: center;
+    text-align: left;
     min-height: 100vh;
     display: flex;
   }
@@ -9,6 +9,7 @@ body {
     margin: auto;
     padding: auto;
     background: url("../images/Ilustra02.png") no-repeat 70% /
+    
     clamp(20rem, 54vw, 45rem);
   }
 
@@ -20,7 +21,7 @@ body {
   header img {
     width: 150px;
     position: relative;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
   }
   
   .button {
