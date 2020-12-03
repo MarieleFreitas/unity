@@ -1,0 +1,20 @@
+.container{
+    margin-top: 70px;
+}
+h1 {
+    color: #503a98;
+    margin-bottom:20px;
+    
+    
+  }
+
+  .container-atend{
+      background:rgb(245, 245, 245);
+      padding:10px;
+      border-radius: 5px;
+      margin: 20px 0 10px 0;
+  }
+p{
+    color:#503a98;
+    margin: 10px 0 10px 0;
+}

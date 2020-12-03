@@ -1,45 +1,69 @@
 body {
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-  }
-  
-  .container {
-    margin: auto;
-    padding: auto;
-    width: min(90%, 112rem);
-    align-items: center;
-  }
+  text-align: left;
+  position: fixed;
+}
 
-  .main {
-    
-    width: 48px;
-    height: 48px;
-    border: none;
-    border-radius: 1.6rem;
-    cursor: pointer;
+.container-admin{
+
+width: auto;
+margin: 50px 100px 100px 250px; 
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: right;
+flex-wrap: wrap;
+
+}
+
+.sair{
+  position: relative;
+  top: 30px;
+  left:1400px;
+}
+
+.status{
+  margin-top: 30px;
   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  
-  }
+}
+
+p{
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.painel-avisos {
+  background: #f3bb64;
+  border-radius: 4px;
+  height: 200px;
+  text-align: left;
+  width: 850px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
 
 
-  
-  .main li {
-    padding: 20px;
-    margin : 20px;
-    background:  #f3bb64;
-    border-radius: 6px;
+.admin-tarefas {
 
-  }
+  border: none;
+  border-radius: 1.6rem;
+  cursor: pointer;
+
+  display: flex;
+}
+.admin-tarefas li {
+  padding: 20px;
+  margin: 10px 30px 10px 0;
+  width: 300px;
+  height: 130px;
   
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  li:hover {
-    background: #f083a9;
-  }
+  background:  #f3bb64;
+  border-radius: 6px;
+
+}
+
+.admin-tarefas a {
+  color: white;
+  text-decoration: none;
+}
