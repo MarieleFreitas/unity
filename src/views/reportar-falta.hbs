@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unity | Reportar Falta</title>
+
+    <link rel="icon" href="/images/icon-logo.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/page-reportar-falta.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <aside class="sidebar" class="animate-right">
+        <header>
+          <img src="/images/icon-logo.png" alt="Logo da Unity" />
+        </header>
+  
+        <footer>
+          <button onclick="history.back()">
+            <img src="/images/Botão.png" alt="Voltar" />
+          </button>
+        </footer>
+      </aside>
+
+      <main class="container">
+
+        <h1>Reporte sua Falta!</h1>
+        
+
+        <form action="" method="post">
+
+
+
+            <p>
+                <label for="data">Selecione o dia em que irá faltar</label>
+                <input id="date" name="data" type="date">
+            </p>
+
+
+            <p>Vai faltar em todas as aulas do dia?</p><br />
+
+            <label for="sim">
+                Sim
+                <input type="radio" name="opc" id="sim" value="sim" checked><br>
+            </label>
+
+            <label for="nao">
+                Não
+                <input type="radio" name="opc" id="nao" value="nao"><br>
+            </label>
+
+            <p>Nos conte o porque abaixo:</p>
+            <textarea></textarea>
+
+            <button class="bt" type="submit">Enviar</button>
+
+
+        </form>
+
+
+      </main>
+
+  </body>
+
+</html>

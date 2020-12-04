@@ -125,7 +125,7 @@ html {
   
     text-align: center;
     font-size: 15px;
-    margin-top: 215px;
+    margin-top: 150px;
     margin-bottom: 25px;
   
     display: flex;
@@ -173,6 +173,7 @@ html {
   .aside-1 img{
       width:250px;
       margin: 10px;
+      margin-top: 60px;
       
   }
   
