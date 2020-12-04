@@ -31,6 +31,21 @@ html {
     color: grey;
     font-size: 12px;
   }
+
+  .sair{
+    position: relative;
+    top: 38px;
+    left:230px;
+    background:#69b7d6;
+    padding:1px 15px;
+    border-radius: 3px;
+    color: white ;
+  }
+
+  .sair:hover{
+    background:#503a98;
+    transition: 1s;
+  }
   
   .painel-avisos {
     background: #f3bb64;

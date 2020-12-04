@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
@@ -19,27 +19,40 @@
 
   <body>
 
-    <aside class="sidebar" class="animate-right">
-        <header>
-          <img src="./public/images/icon-logo.png" alt="Logo da Unity" />
-        </header>
-  
-        <footer>
-          <button onclick="history.back()">
-            <img src="./public/images/Botão.png" alt="Voltar" />
-          </button>
-        </footer>
+      <aside class="sidebar" class="animate-right">
+          <header>
+              <img src="./public/images/icon-logo.png" alt="Logo da Unity" />
+          </header>
+
+          <footer>
+              <button onclick="history.back()">
+                  <img src="./public/images/Botão.png" alt="Voltar" />
+              </button>
+          </footer>
       </aside>
 
+      <main class="container">
+          <form method="post" action="">
+              <h1>Editar Presenças</h1>
+              <br />
+              
+              <p>
+                  <label>Procure pelo nome do aluno</label>
+                  <input id="nome_aluno" name="nome_aluno" required="required" type="text" placeholder="">
+              </p>
+             
+              <p>
+                  <button class="bt" type="submit">Procurar</button>
+              </p>
+
+          </form>
+          
+
+
+      </main>
   </body>
 
-  <main class="container">
-    <h1>Editar Presenças</h1>
-    <p>Procure pelo nome do aluno:</p>
-    <input type="text" placeholder="Digite o nome do Aluno">
-    </div>
+  
 
-
-  </main>
 
 </html>

@@ -31,6 +31,14 @@ h1 {
     
     
   }
+
+.input_2 {
+    border: none;
+    color: black;
+    width: 800px;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 40px;
+}
   
   input:hover {
     border-bottom: 2px solid #f083a9;

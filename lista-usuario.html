@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unity | Reportar Falta</title>
+    <title>Unity | Informações de Usuários</title>
 
     <link rel="icon" href="./public/images/icon-logo.png" />
     <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="stylesheet" href="./public/css/animations.css" />
-    <link rel="stylesheet" href="./public/css/page-reportar-falta.css" />
+    <link rel="stylesheet" href="./public/css/page-lista-usuarios.css" />
     <link rel="stylesheet" href="./public/css/sidebar.css" />
 
     <link
@@ -32,42 +32,23 @@
       </aside>
 
       <main class="container">
-
-        <h1>Reporte sua Falta!</h1>
-        
-
-        <form action="" method="post">
-
-
+        <form method="post" action="">
+            <h1>Informações de Usuários</h1>
+            <br />
 
             <p>
-                <label for="data">Selecione o dia em que irá faltar</label>
-                <input id="date" name="data" type="date">
+                <label>Procure pelo nome</label>
+                <input id="nome_aluno" name="nome_aluno" required="required" type="text" placeholder="">
             </p>
 
-
-            <p>Vai faltar em todas as aulas do dia?</p><br />
-
-            <label for="sim">
-                Sim
-                <input type="radio" name="opc" id="sim" value="sim" checked><br>
-            </label>
-
-            <label for="nao">
-                Não
-                <input type="radio" name="opc" id="nao" value="nao"><br>
-            </label>
-
-            <p>Nos conte o porque abaixo:</p>
-            <textarea></textarea>
-
-            <button class="bt" type="submit">Enviar</button>
-
-
+            <p>
+                <button class="bt" type="submit">Procurar</button>
+            </p>
         </form>
-
-
-      </main>
+    </main>
+        
+     
+    </div>
 
   </body>
 

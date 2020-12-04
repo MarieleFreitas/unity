@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
     <link rel="icon-logo.png" href="./public/images/icon-logo.png" />
     <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="stylesheet" href="./public/css/animations.css" />
-    <link rel="stylesheet" href="./public/css/cadastro-usuario.css" />
+    <link rel="stylesheet" href="./public/css/page-cadastro-usuario.css" />
     <link rel="stylesheet" href="./public/css/sidebar.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
@@ -18,16 +18,62 @@
 
   <body>
 
-    <aside class="sidebar" class="animate-right" >
-      <img src="./public/images/icon-logo.png" alt="Logo da Unity" >
-      <footer>
-      <button onclick="history.back()">
-        <img src="./public/images/Botão.png" alt="Voltar" >
-      </button>
-    </footer>
-    </aside>
+      <aside class="sidebar" class="animate-right">
+          <img src="./public/images/icon-logo.png" alt="Logo da Unity">
+          <footer>
+              <button onclick="history.back()">
+                  <img src="./public/images/Botão.png" alt="Voltar">
+              </button>
+          </footer>
+      </aside>
 
-    <script src="./public/scripts/page-cadastro-usuario.js"></script>
+
+      <main class="container-admin">
+
+          <div>
+              <h1>Cadastrar Usuário</h1>
+              <p>Segunda, 23 de janeiro de 2020</p>
+          </div>
+
+          <form method="post" action="">
+
+              <p>
+                  <label for="nome_cad">Nome</label>
+                  <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+              </p>
+
+              <p>
+                  <label for="sobrenome_cad">Sobrenome</label>
+                  <input id="sobrenome_cad" name="sobrenome_cad" required="required" type="text" placeholder="" />
+              </p>
+
+              <p>
+                  <label for="email_cad">E-mail</label>
+                  <input id="email_cad" name="email_cad" required="required" type="email" placeholder="" />
+              </p>
+
+              <p>
+                  <label for="matricula_cad">Matrícula</label>
+                  <input id="matricula_cad" name="matricula_cad" required="required" type="text" placeholder="" />
+              </p>
+
+              <p>
+                  <label for="senha_cad">Senha</label>
+                  <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="" />
+              </p>
+
+
+              <p>
+                  <button class="bt" type="submit">Cadastrar</button>
+              </p>
+
+              
+          </form>
+
+
+      </main>
+
+      
   </body>
     
 </html>

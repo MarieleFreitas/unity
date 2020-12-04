@@ -1,4 +1,4 @@
-aside.sidebar {
+.sidebar {
     position: fixed;
     height: 100%;
     padding: 32px 24px;
@@ -9,12 +9,12 @@ aside.sidebar {
     justify-content: space-between;
     align-items: center;
   }
-  aside img {
+  .sidebar img {
     max-width: 50px;
     transform: rotateY(180deg);
   }
   
-  aside.sidebar footer button {
+  .sidebar footer button {
     background: #f3bb64;
     width: 48px;
     height: 48px;
@@ -29,6 +29,6 @@ aside.sidebar {
     transition: background-color 0.2s;
   }
   
-  aside.sidebar footer button:hover {
+.sidebar footer button:hover {
     background: #f083a9;
   }

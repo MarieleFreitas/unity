@@ -4,3 +4,36 @@ h1{
 p{
     color:grey;
 }
+.bt {
+    background: #f083a9;
+    color: white;
+    height: 35px;
+    width: 100px;
+    margin: -20px -50px;
+    position: relative;
+    top: 50%;
+    left: 7%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    .bt:hover {
+        background: #503a98;
+    }
+
+input {
+    border: none;
+    color: #503a98;
+    width: 800px;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 40px;
+    display: block;
+}
+
+    input:hover {
+        border-bottom: 2px solid #f083a9;
+    }
