@@ -3,6 +3,10 @@ body {
     position: fixed;
 }
 
+h1{
+    color: #503a98;
+}
+
 .container-admin {
     width: auto;
     margin: 50px 100px 100px 250px;
